@@ -1,0 +1,200 @@
+<div class="container">
+  <h3>Advance Search</h3>
+  <table>
+    <tr>
+      <td style="vertical-align: top;">
+        <form action="" method="get" onsubmit="">
+          <table>
+            <tbody>
+              <tr>
+                <td style="width: 50%; padding-right: 15px; vertical-align: top;">
+                  <div class="section">
+                    <span class="label">Keywords</span>
+                    <input name="txt_Keyword" type="text" size="22" class="textField">
+                  </div>
+                  <div class="section">
+                    <span class="label">Author</span>
+                    <input name="txt_Author" type="text" size="22" class="textField">
+                  </div>
+                  <div class="section">
+                    <span class="label">Title</span>
+                    <input name="txt_Title" type="text" size="22" class="textField">
+                  </div>
+                  <div class="section">
+                    <span class="label">ISBN</span>
+                    <input name="txt_ISBN" type="text" size="22" class="textField">
+                  </div>
+                  <div class="section">
+                    <span class="label">Publisher</span>
+                    <input name="txt_Publisher" type="text" size="22" class="textField">
+                  </div>
+                  <div class="section">
+                    <span class="label">Subject</span>
+                    <select name="cd_Subject">
+                      <option value="1" selected>All Subject</option>
+                      <option value="2">Arts & Photography</option>
+                      <option value="3">Biographies & Memoirs</option>
+                      <option value="4">Business & Investing</option>
+                      <option value="5">Children's Books</option>
+                      <option value="6">Comics & Graphic Novels</option>
+                      <option value="7">Cookbooks, Food & Wine</option>
+                      <option value="8">Computer & Technology</option>
+                      <option value="9">History</option>
+                      <option value="10">Travel</option>
+                      <option value="11">Science & Math</option>
+                      <option value="12">Law</option>
+                    </select>
+                  </div>
+                </td>
+                <td style="width: 50%; padding-left: 15px; vertical-align: top;">
+                  <div class="section">
+                    <span class="label">Condition</span>
+                    <select>
+                      <option value="all_con" selected>All Condition</option>
+                      <option value="new_con">New</option>
+                      <option value="used_con">Used</option>
+                      <option value="collect_con">Collectible</option>
+                    </select>
+                  </div>
+                  <div class="section">
+                    <span class="label">Format</span>
+                    <select>
+                      <option value="all_formats" selected>All Formats</option>
+                      <option value="paperback_format">Paperback</option>
+                      <option value="handcover_format">Handcover</option>
+                      <option value="kindle_format">Kindle edition</option>
+                      <option value="audible_format">Audible Audio edition</option>
+                      <option value="html_format">HTML</option>
+                      <option value="pdf_format">PDF</option>
+                      <option value="CD_format">Audio CD</option>
+                      <option value="board_format">Board book</option>
+                      <option value="cassette_format">Audio Cassette</option>
+                      <option value="calendar_format">Calendar</option>
+                      <option value="schoolbinding_format">School Binding</option>
+                      <option value="mp3_format">MP3 CD</option>
+                      <option value="audio_format">Audio Book</option>
+                      <option value="printed_format">Print Book</option>
+                    </select>
+                  </div>
+                  <div class="section">
+                    <span class="label">Reader Age</span>
+                    <select>
+                      <option value="all_age" selected>All Ages</option>
+                      <option value="baby_age">Baby 2 Years</option>
+                      <option value="3-5">3-5 Years</option>
+                      <option value="6-8">6-8 Years</option>
+                      <option value="9-12">9-12 Years</option>
+                    </select>
+                  </div>
+                  <div class="section">
+                    <span class="label">Language</span>
+                    <select>
+                      <option value="all_lang" selected>All Language</option>
+                      <option value="lang_eng">English</option>
+                      <option value="lang_fre">French</option>
+                      <option value="lang_ger">German</option>
+                      <option value="lang_spa">Spanish</option>
+                    </select>
+                  </div>
+                  <div class="section">
+                    <div class="inline-item">
+                      <span class="label">Publish Day</span>
+                      <select>
+                        <option value="all_date" selected>All dates</option>
+                        <option value="during_date">During</option>
+                        <option value="before_date">Before</option>
+                        <option value="after_date">After</option>
+                      </select>
+                    </div>
+                    <div class="inline-item">
+                      <span class="label">Month</span>
+                      <select>
+                        <option value="month1">Jan</option>
+                        <option value="month2">feb</option>
+                        <option value="month3">Mar</option>
+                        <option value="month4">Apr</option>
+                        <option value="month5">May</option>
+                        <option value="month6">Jun</option>
+                        <option value="month7">Jul</option>
+                        <option value="month8">Aug</option>
+                        <option value="month9">Sep</option>
+                        <option value="month10">Oct</option>
+                        <option value="month11">Nov</option>
+                        <option value="month12">Dec</option>
+                      </select>
+                    </div>
+                    <div class="inline-item">
+                      <span class="label">Year</span>
+                      <input name="txt_year" type="text" style="height: 30px; width: 50px;" >
+                    </div>
+                  </div>
+                  <div class="section">
+                    <span class="label">Sort result by</span>
+                    <select name="cb_sort">
+                      <option value="feature" selected>Featured</option>
+                      <option value="sell_rank">Best Selling</option>
+                      <option value="low_to_high">Price: Low to High</option>
+                      <option value="high_to_low">Price: High to Low</option>
+                      <option value="quality_rank">Agv. Customer Review</option>
+                      <option value="pub_day">Publish Date</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="text-align: center; padding-top: 10px;">
+                  <button name="submit_button" type="submit">Search</button>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <strong>Real World Examples</strong>
+                  <p> 
+                    Trying to find books written by Malcolm X but not an autobiography? Try this search: 
+                    <br>
+                    Put 
+                    <b>Malcolm X</b>
+                    ' in the 'Author' field and '
+                    <b>-autobiography</b>
+                    ' in the 'Keywords' field. See the result.                            
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </td>
+      <td [width]="200" style="padding-left: 15px;">
+        <div class="col-search-tips">
+          <h3>Search Tips</h3>
+          <div class="nav-tips">
+            <b>How can I get fewer result?</b>
+            <p>If you use more than one keyword, our search engine will restrict the results to products that match all the keywords you enter.</p>
+          </div>
+          <div class="nav-tips">
+            <b>How can I get more results?</b>
+            <p>Too many keywords can constrain your search. Use fewer keywords to find more results, e.g. conduct a search for "O'Reilly" to find all titles by O'Reilly and Associates.</p>
+          </div>
+          <div class="nav-tips">
+            <b>How do I search by ISBN?</b>
+            <p>If you choose to search by ISBN, search only by that field and make sure you type the number correctly, without any dashes.</p>
+          </div>
+          <div class="nav-tips">
+            <b>How do I sort my results?</b>
+            <p>When searching our bookstore, you can sort your search results in the way that is most useful to you by selecting the sort option. Once your search has produced a list of relevant items, select a way to sort by clicking the "Sort results by" box at the top of the list.</p>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <div>
+    
+  </div>
+</div>
+
+
+
+
+
+
+

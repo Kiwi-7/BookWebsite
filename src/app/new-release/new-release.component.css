@@ -1,0 +1,56 @@
+.banner{
+    background-color: aqua;
+    text-align: center;
+    height: 130px;
+}
+
+.col-right{
+    width: 100%;
+    float: right;
+    position: relative;
+}
+h1{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.col-left{
+    width: 20rem;
+    float: none;
+    margin-left: -20rem;
+    padding-left: 10px;
+}
+li{
+    list-style-type: none;
+    padding: 5px 10px;
+}
+h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.grid-display > .grid-content{
+    background-color: chartreuse;
+}
+.grid-content{
+    width: 332px;
+}
+.content-num{
+    width: 40px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: chocolate;
+}
+.content-box{
+    padding: 12px 12px 0px 12px;
+}
+.img-box{
+    margin-bottom: 5px;
+}
+.img-box img{
+    max-width: 300px;
+    max-height: 200px;
+}

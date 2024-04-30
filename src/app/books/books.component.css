@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    height: 54px;
+    line-height: 54px;
+    font-size: 32px;
+}
+h3{
+    padding-left: 30px;
+    padding-top: 35px;
+    font-size: 26px;
+}
+h4{
+    padding-top: 8px;
+}
+.row-2-content h4{
+    padding-bottom: 7px;
+}
+
+.a-row-two-col-center-pad{
+    width: 100%;
+}
+
+.a-col-left{
+    width: 200px;
+    float: left;
+    background-color: greenyellow;
+}
+.side-nav-row-1{
+    font-size: 13px;
+}
+.side-nav-row-1 ul{
+    padding-left: 10px;
+}
+.side-nav-row-1 ul li{
+    list-style-type: none;
+}
+.side-nav-row-2{
+    font-size: 15px;
+}
+.side-nav-row-2 ul{
+    padding-left: 0px;
+}
+.side-nav-row-2 ul li{
+    list-style-type: none;
+}
+
+.a-col-right{
+    background-color: red;
+    padding-left: 200px;
+}
+
+.banner-section{
+    padding-left: 12px;
+}
+.small-banner{
+    height: 370px;
+    width: 422px;
+    padding-right: 15px;
+}
+
+.with-overflow{
+    overflow: auto;
+    min-width: 900px;
+    padding-left: 30px;
+}
+.grid-display>.grid-item{
+    max-width: 300px;
+    min-width: 210px;
+    flex-basis: 210px;
+}
+.item-content{
+    text-align: center;
+}
+.item-img{
+    padding-top: 30px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#content-with-tab{
+    padding-left: 15px;
+}

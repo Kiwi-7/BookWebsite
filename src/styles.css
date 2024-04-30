@@ -1,1 +1,113 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-width: 998px;
+    padding: 14px 18px 18px;
+}
+
+.a-row{
+    width: 100%;
+    background-color: burlywood;
+}
+
+.grid-display{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a:hover{
+    color: chocolate !important; 
+}
+.nav-main a:hover{
+    border: 1px;
+    border-color: white;
+}
+.nav-main a{
+    color:white;
+    font-size: 14px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    line-height: normal;
+    padding: 8px 9px;
+    margin: 5px 0px;
+}
+.nav-subnav a{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 33px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-main{
+    min-width: 1000px;
+}
+.nav-top{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.nav-main{
+    background-color: darkolivegreen;
+    height: 40px;
+}
+.nav-subnav{
+    background-color: aliceblue;
+}
+
+.nav-left{
+    position: static;
+    display: flex;
+    float: left;
+    height: inherit;
+}
+.nav-mid{
+    position: static;
+    display: flex;
+    float: none;
+    height: inherit;
+}
+.nav-right{
+    position: static;
+    display: flex;
+    float: none;
+    height: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+img.logo-icon{
+    height: 60px;
+    width: 100px;
+}
+
+footer{
+    background-color: black;
+    color: white;  
+    clear: both;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+}
+
+input[type=text]{
+    height: 31px;
+    padding: 3px 7px;
+    border: 1px solid #888C8C;
+    border-radius: 4px;
+}
