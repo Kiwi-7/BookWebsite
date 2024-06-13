@@ -1,0 +1,51 @@
+.col-right{
+    float: right;
+    width: 315px;
+    background-color: burlywood;
+}
+.buybox-cover{
+
+}
+.price_option{
+
+}
+.buybox{
+
+}
+.buybox-inner{
+    padding: 14px 18px;
+}
+.other_feature{
+
+}
+
+.author_card{
+    display: flex;
+    size: 100%;
+    background-color: rgb(224, 239, 239);
+}
+
+.col-left{
+    float: left;
+    margin-right: 50px;
+    width: 20%;
+}
+
+.col-center{
+    margin-right: 335px;
+    margin-left: auto;
+}
+.grid-display>.itemcol-left{
+    flex-grow: 1;
+}
+.grid-display>.itemcol-right{
+    margin: auto;
+    padding: auto;
+}
+.book-decription{
+    margin-bottom: 10px;
+}
+
+.with_padding{
+    padding:  8px 3px 4px;
+}

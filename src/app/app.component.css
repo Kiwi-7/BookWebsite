@@ -1,4 +1,13 @@
 #nav-global-location{
-    width: auto;
+    min-width: 120px;
     height: 60px;
+}
+
+.searchbox{
+    padding-left: 5px;
+}
+
+.search-item{
+    width: 45vw;
+    margin-left: 10px;
 }

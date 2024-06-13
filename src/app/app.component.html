@@ -16,30 +16,35 @@
         </div>
       </div>
       <div class="nav-mid">
-        <div id="nav-search">
+        <div class="nav-search">
           <form name="site-search" method="get" role="search" accept-charset="utf-8" style="display: flex;">
             <div class="nav-left">
-              <select name="cb_SearchBox">
-                <option value=""></option>
-              </select>
+              <div class="searchbox">
+                <select name="cb_SearchBox">
+                  <option value="" selected>
+                    books
+                  </option>
+                </select>
+              </div>
             </div>
-            <div class="nav-mid">
-              <label>Search Kiwi Store</label>
-              <input name="txt_search_info" type="text" size="" class="">
+            <div class="nav-mid" style="align-items: center;">
+              <input name="txt_search_info" type="text" size="" class="search-item">
             </div>
-            <div class="nav-right">
-              <button type="submit" style="color: beige; height: 40px;">
-                kiwi
+            <div class="nav-right" style="align-items: center;">
+              <button type="submit" style="color: green; height: 30px; width: 50px;">
+                Search
               </button>
             </div>
           </form>
         </div>
       </div>
       <div class="nav-right">
-        <a>Tranlate Tool</a>
-        <a>Account Tool</a>
-        <a>Return and Order</a>
-        <a>Cart</a>
+        <div style="padding-left: 10px;">
+          <a style="padding-left: 10px;">Tranlate Tool</a>
+          <a style="padding-left: 10px;">Account Tool</a>
+          <a style="padding-left: 10px;">Return and Order</a>
+          <a style="padding-left: 10px;">Cart</a>
+        </div>
       </div>
     </div>
     <div class="nav-main">
@@ -68,3 +73,50 @@
   </div>
 </header>
 <router-outlet></router-outlet>
+<footer>
+  <div class="part1">
+    <table style="width: 100%; text-align: center; line-height: 28px; top: 0px;">
+      <td style="padding: 20px;">
+        <b>Get to Know Us</b><br>
+        Careers<br>
+        Blog<br>
+        About Kiwi<br>
+        Investor Relations<br>
+        Kiwi Devices<br>
+        Kiwi Science<br>
+      </td>
+      <td style="padding: 20px;">
+        <b>Make Money with Us</b><br>
+        Sell products on Kiwi<br>
+        Sell on Kiwi Business<br>
+        Sell apps on Kiwi<br>
+        Become an Affiliate<br>
+        Advertise Your Products<br>
+        Self-Publish with Us<br>
+        Host an Kiwi Hub<br>
+        See More Make Money with Us<br>
+      </td>
+      <td style="padding: 20px;">
+        <b>Kiwi Payment Products</b><br>
+        Kiwi Business Card<br>
+        Shop with Points<br>
+        Reload Your Balance<br>
+        Kiwi Currency Converter<br>
+      </td>
+      <td style="padding: 20px;">
+        <b>Let Us Help You</b><br>
+        Kiwi and COVID-19<br>
+        Your Account<br>
+        Your Orders<br>
+        Shipping Rates & Policies<br>
+        Returns & Replacements<br>
+        Manage Your Content and Devices<br>
+        Kiwi Assistant<br>
+        Help<br>
+      </td>
+    </table>
+  </div>
+  <div class="part2">
+    This sample website is made by Mai Huu Van
+  </div>
+</footer>

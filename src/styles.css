@@ -18,7 +18,22 @@ body{
 
 .a-row{
     width: 100%;
-    background-color: burlywood;
+}
+.flex-row{
+    min-height: 58px;
+    display: flex;
+}
+
+.a-size6{
+    width: 49%;
+}
+
+.a-button{
+    
+}
+
+.small-spacing{
+    margin-bottom: 8px;
 }
 
 .grid-display{
@@ -58,6 +73,8 @@ a:hover{
     background-color: black;
     height: 60px;
     width: 100%;
+    overflow: hidden;
+    line-height: 60px;
     display: flex;
     color: white;
 }
@@ -96,13 +113,26 @@ img.logo-icon{
     width: 100px;
 }
 
+button{
+    color: white;
+}
+
 footer{
-    background-color: black;
     color: white;  
     clear: both;
     width: 100%;
     position: relative;
     bottom: 0px;
+}
+.part1{
+    background-color: rgb(9, 9, 71);
+}
+.part2{
+    background-color: rgb(18, 14, 36);
+    font-size: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
 }
 
 input[type=text]{
