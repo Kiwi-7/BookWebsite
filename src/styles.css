@@ -1,3 +1,4 @@
+/*----------Container Sizing----------*/
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,7 @@
 body{
     font-size: 14px;
     line-height: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .container{
@@ -27,22 +28,33 @@ body{
 .a-size6{
     width: 49%;
 }
-
-.a-button{
-    
-}
-
+/*----------Spacing----------*/
 .small-spacing{
     margin-bottom: 8px;
 }
 
+.tab{
+    padding-left: 10px;
+}
+
+.separator{
+    margin-left: 9px;
+    margin-right: 9px;
+    color: #333333;
+}
+/*----------Display----------*/
 .grid-display{
     display: flex;
     flex-wrap: wrap;
 }
 
+.flex{
+    display: flex;
+}
+/*----------Link Decorations----------*/
 a:hover{
-    color: chocolate !important; 
+    color: chocolate !important;
+    cursor: pointer; 
 }
 .nav-main a:hover{
     border: 1px;
@@ -65,7 +77,10 @@ a:hover{
     text-decoration: none;
     color: black;
 }
-
+.green-a{
+    color: #328422;
+}
+/*-----------Navbar Decorations----------*/
 .navbar-main{
     min-width: 1000px;
 }
@@ -104,7 +119,7 @@ a:hover{
     float: none;
     height: inherit;
 }
-
+/*----------IMG formating---------*/
 img{
     max-width: 100%;
 }
@@ -112,11 +127,7 @@ img.logo-icon{
     height: 60px;
     width: 100px;
 }
-
-button{
-    color: white;
-}
-
+/*----------Footer Decorations---------*/
 footer{
     color: white;  
     clear: both;
@@ -134,10 +145,17 @@ footer{
     padding-bottom: 12px;
     text-align: center;
 }
-
+/*----------Input Decorations----------*/
 input[type=text]{
     height: 31px;
     padding: 3px 7px;
     border: 1px solid #888C8C;
     border-radius: 4px;
+}
+/*----------Button Decorations----------*/
+.a-button{
+    
+}
+button{
+    color: white;
 }

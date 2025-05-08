@@ -1,0 +1,93 @@
+.search-container{
+    padding-top: 15px;
+}
+/**/
+.col-left{
+    width: 270px;
+    float: left;
+}
+.side-nav-row{
+    padding-left: 12px;
+}
+.nav-content{
+    padding: 4px 0px;
+}
+.nav-content ul{
+    list-style-type: none;
+}
+/**/
+.col-right{
+    margin-left: 270px;
+}
+.search-item{
+    margin: 8px 6px 8px 0px;
+    border: 1px solid rgb(237, 235, 235);
+    border-radius: 5px;
+}
+
+.left-item-content{
+    background-color: rgb(237, 235, 235);
+    width: 220px;
+    min-height: 250px;
+    text-align: center;
+    position: relative;
+}
+.item-img{
+    max-width: 150px;
+}
+
+.right-item-content{
+    padding-left: 8px;
+    padding-right: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#bookData-bookName{
+    font-weight: 100;
+}
+#bookData-authorName{
+    color: rgb(84, 84, 84);
+}
+/*Star display*/
+.star-box{
+    color: orange;
+    margin-top: 1px;
+}
+.star-outer{
+    position: relative;    
+    display: inline-block;
+}
+.star-outer::before{
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 100;
+}
+
+.star-inner{
+    position: absolute;
+    /*--star-width: 0;
+    width: var(--kiwi-width, 100%);*/
+    top: 0;
+    overflow: hidden;
+}
+.star-inner::before{
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+/*-------------------------*/
+#bookData-people{
+    padding-left: 10px;
+    color: #328422;
+}
+#bookData-cover{
+    font-size: 14px;
+    font-weight: 700;
+}
+#bookData-price{
+    font-size: 20px;
+    font-weight: 550;
+}
+#shiping{
+    font-size: 12px;
+}

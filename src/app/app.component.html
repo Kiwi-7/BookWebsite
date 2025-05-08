@@ -17,7 +17,7 @@
       </div>
       <div class="nav-mid">
         <div class="nav-search">
-          <form name="site-search" method="get" role="search" accept-charset="utf-8" style="display: flex;">
+          <form #searchForm="ngForm" (ngSubmit)="onSubmit()" accept-charset="utf-8" style="display: flex;" novalidate>
             <div class="nav-left">
               <div class="searchbox">
                 <select name="cb_SearchBox">
@@ -28,10 +28,10 @@
               </div>
             </div>
             <div class="nav-mid" style="align-items: center;">
-              <input name="txt_search_info" type="text" size="" class="search-item">
+              <input name="txt_search_info" type="text" class="search-item" placeholder="Search" [(ngModel)]="bookModel.bookId">
             </div>
             <div class="nav-right" style="align-items: center;">
-              <button type="submit" style="color: green; height: 30px; width: 50px;">
+              <button id="btn_submit" type="submit" style="color: green; height: 30px; width: 50px;">
                 Search
               </button>
             </div>
@@ -69,6 +69,7 @@
       <a>Book Of The Month</a>
       <a>Best Book Of 2023</a>
       <a>Your Company Bookshelf</a>
+      <a routerLink="/animation" routerLinkActive="active" aria-current="page">Animation</a>
     </div>
   </div>
 </header>
